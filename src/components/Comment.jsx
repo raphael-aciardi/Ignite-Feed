@@ -1,7 +1,7 @@
 import { ThumbsUp, Trash } from "phosphor-react";
 import styles from "./Comment.module.css";
 
-export function Comment() {
+export function Comment({content}) {
   return (
     <div className={styles.comment}>
       <img src="https://github.com/raphael-aciardi.png" alt="" />
@@ -20,7 +20,7 @@ export function Comment() {
             
           </header>
 
-          <p>Muito bom Raphael, parabéns!! </p>
+          <p>{content}</p>
         </div>
 
         <footer>
