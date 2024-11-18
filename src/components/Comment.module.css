@@ -17,8 +17,8 @@
 
 .commentContent {
     background-color: var(--gray-700);
-    border: 8px;
     padding: 1rem;
+    border-radius: 8px;
 }
 
 .commentContent header {
